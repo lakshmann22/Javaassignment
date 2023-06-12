@@ -39,3 +39,188 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: rgb(36, 133, 133);
 }
+
+h1 {
+    color: blue;
+}
+ul li:last-child {
+    color: chocolate;
+}
+a:hover {
+    color: aqua;
+
+}
+
+.element {
+    margin: 20px;
+    padding: 10px;
+}
+p.lucky {
+    width:200px;
+    height:100px;
+}
+img {
+    border: 2px solid cornflowerblue;
+    width: 50px;
+    height: 50px;
+}
+ul.square {
+    list-style-type: square;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.abcd td {
+    background-color: gold;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: chartreuse;
+  }
+  
+  .logo {
+    flex: 0 0 auto;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }.container {
+    display: flex;
+  }
+  
+  .column {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .fixed-width {
+    flex: 0 0 200px; 
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+
+  
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: deepskyblue;
+}
+
+
+  
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 0 0 200px;
+    background-color: chocolate;
+    position: sticky;
+    top: 0;
+    height: 50vh;
+    overflow: auto;
+  }
+  container {
+    display: flex;
+  }
+  .center {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .element2 {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 200px;
+      border: 1px solid darkcyan;
+  }
+
+  ul.navbar {
+    background-color: #f2f2f2;
+  }
+
+  ul.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .hidden {
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: darkcyan;
+  }
+
+  .scroll {
+    width: 350px;
+    height: 70px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    background-color: navajowhite;
+  }
+
+  .auto {
+    width: 400px;
+    height: 100px;
+    overflow: auto;
+    background-color: orangered;
+  }
+
+  .horizontal {
+    width: 100px;
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: aliceblue;
+  }
+
+  .gallery {
+        display: flex;
+        flex-wrap: wrap;
+      }
+  
