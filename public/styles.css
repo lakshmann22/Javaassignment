@@ -205,7 +205,7 @@ header {
   }
 
   .auto {
-    width: 400px;
+    width: 300px;
     height: 100px;
     overflow: auto;
     background-color: orangered;
